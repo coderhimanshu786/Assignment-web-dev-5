@@ -1,0 +1,25 @@
+/*
+Ans-6
+    Template literals are a new feature introduced in ECMAScript 2015/ ES6. It provides an easy way to create multiline strings and perform string interpolation. Template literals are the string literals and allow embedded expressions. Before ES6, template literals were called as template strings.
+
+    for example
+
+                        var str = `string value`;  
+
+            multiline strings
+                         console.log('Without template literal \n multiline string');   
+                                
+                            // With template literal   
+                            console.log(`Using template literal  
+                            multiline string`);  
+                    
+            Tagged literals template
+                            function TaggedLiteral(str) {   
+                                console.log(str);   
+                                         }   
+                                
+                            TaggedLiteral `Hello World`;  
+
+                            etc..
+
+                            */

@@ -1,0 +1,31 @@
+/*
+Ans-8
+     Example of Array destructuring -:
+
+         var colors = ["Violet", "Indigo", "Blue", "Green", "Yellow", "Orange", "Red"];  
+  
+        // destructuring  
+        var[color1, ,color3, ,color5] = colors; //Leave space for unpick elements  
+        console.log(color1); // Violet  
+        console.log(color3); // Blue  
+        console.log(color5); // Yellow  
+
+        Output -:
+
+                Violet
+                Blue
+                Yellow
+
+                Example of Object destructuring -:
+
+                let user = {  
+                    uname,  
+                    udivision  
+                 };  
+                 console.log(user.uname);  
+                 console.log(user.udivision);  
+
+                 Output
+
+                    Anil
+                    First

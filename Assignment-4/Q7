@@ -1,0 +1,42 @@
+/*
+Ans-7
+foreach() -:
+
+-     The forEach() method does not returns a  new array based on the given array.
+
+-     The forEach() method returns “undefined“.	
+
+-     The forEach() method doesn’t return anything hence the method chaining technique cannot be applied here. 
+
+-     It is not executed for empty elements.	
+
+    for example-:
+
+                let myArray = [1, 2, 3, 4];
+      
+                const returnValue = myArray.forEach((element) => {
+                    return element * element;
+                }).reverse();
+                console.log(returnValue);
+
+Map() -:
+
+-   The map() method returns an entirely new array.
+-   
+-   The map() method returns the newly created array according to the provided callback function.
+-   
+-   With the map() method, we can chain other methods like, reduce(),sort() etc.
+-   
+-   It does not change the original array.
+-   
+    for example -:
+
+    
+                    let myArray = [1, 2, 3, 4];
+                
+                    const returnValue = myArray.map((element) => {
+                        return element * element;
+                    }).reverse();
+                    console.log(returnValue);
+
+                    */

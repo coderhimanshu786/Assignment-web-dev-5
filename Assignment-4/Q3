@@ -1,0 +1,32 @@
+/*
+Ans-3
+    Variables declared by let are only available inside the block where they’re defined.
+
+    Variables declared by var are available throughout the function in which they’re declared.
+
+    For Example--
+
+VAR FUNCTION-
+                            function varScoping() {
+                                var x = 1;
+
+                                if (true) {
+                                    var x = 2;
+                                    console.log(x); // will print 2
+                                }
+
+                                console.log(x); // will print 2
+                                }
+LET FUNCTION-
+                            function letScoping() {
+                                let x = 1;
+
+                                if (true) {
+                                    let x = 2;
+                                    console.log(x); // will print 2
+                                }
+
+                                console.log(x); // will print 1
+                                }
+
+                                */
